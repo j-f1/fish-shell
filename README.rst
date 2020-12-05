@@ -172,26 +172,6 @@ To install into ``/usr/local``, run:
 The install directory can be changed using the
 ``-DCMAKE_INSTALL_PREFIX`` parameter for ``cmake``.
 
-Building from source (macOS) - Xcode
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. code:: bash
-
-   mkdir build; cd build
-   cmake .. -G Xcode
-
-An Xcode project will now be available in the ``build`` subdirectory.
-You can open it with Xcode, or run the following to build and install in
-``/usr/local``:
-
-.. code:: bash
-
-   xcodebuild
-   xcodebuild -scheme install
-
-The install directory can be changed using the
-``-DCMAKE_INSTALL_PREFIX`` parameter for ``cmake``.
-
 Help, it didn’t build!
 ~~~~~~~~~~~~~~~~~~~~~~
 
